@@ -40,7 +40,7 @@ const QuoteTable = ({ quotes, isBid }: QuoteTableProps) => {
 
   return (
     <div>
-      <div className='grid grid-cols-3 w-full text-right text-[#8698aa] text-xs pr-4 mb-1 font-sans'>
+      <div className='grid grid-cols-3 w-full text-right text-[#8698aa] text-xs pr-4 mb-1 font-sans gap-x-2'>
         <span>價格 (USD)</span>
         <span>數量</span>
         <span>總計</span>

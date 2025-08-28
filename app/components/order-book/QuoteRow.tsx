@@ -53,7 +53,7 @@ const QuoteRow = ({
     <div
       className={`flex items-center h-7 text-sm hover:bg-[#1E3059] cursor-pointer font-mono ${rowAmin}`}
     >
-      <div className='grid grid-cols-3 w-full text-right pr-4'>
+      <div className='grid grid-cols-3 w-full text-right pr-4 gap-x-2'>
         <span className={`${priceColorClass}`}>
           {formatNumberWithCommas(price)}
         </span>

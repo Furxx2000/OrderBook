@@ -25,11 +25,15 @@ export const LastPriceDisplay = ({
     >
       <span>{formatNumberWithCommas(priceInfo.current)}</span>
 
-      {priceInfo.direction !== 'same' && (
+      <span className='ml-2'>
+        <ArrowIcon direction={priceInfo.direction} />
+      </span>
+
+      {/* {priceInfo.direction !== 'same' && (
         <span className='ml-2'>
-          {/* <ArrowIcon direction={priceInfo.direction} /> */}
+          <ArrowIcon direction={priceInfo.direction} />
         </span>
-      )}
+      )} */}
     </div>
   );
 };
